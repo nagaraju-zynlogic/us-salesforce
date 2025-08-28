@@ -1,0 +1,52 @@
+.why-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.swhy-ksolves-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.icon-wrap img {
+  max-width: 60px;
+}
+
+.icon-wrap.number {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  min-width: 60px;
+  text-align: center;
+}
+
+.text-wrap h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.text-wrap p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
