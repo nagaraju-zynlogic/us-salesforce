@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function WhatWeDo() {
   return (
-    <section className="py-20 bg-white">
+    <section id="what-we-do-section" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Image */}
         <div className="w-full">
@@ -18,24 +18,17 @@ export default function WhatWeDo() {
         <div>
           <h2 className="text-4xl font-bold text-[#104569] mb-6">What We Do</h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Data Geeks Lab is a Salesforce.org consulting partner with extensive
-            experience working with NonProfit Success Pack, PatronManager, and
-            Marketing Cloud Account Engagement (Pardot). Our US-based team
-            creates practical solutions, provides training and coaching, and
-            offers admin support. Whether you are implementing Salesforce from
-            scratch, seeking to expand your use of the platform, or looking for
-            guidance to manage staff or organizational change, we can help.
+            CLOUDEATION TECHNOLOGIES is a premier technology consulting partner with extensive experience in Salesforce, Microsoft Azure, and cutting-edge Data Science and AI. Our expert team creates powerful, scalable solutions, provides seamless cloud migration and integration, and offers expert implementation support. Whether you are implementing a CRM system for the first time, seeking to unlock insights from your data with AI, or looking to build a secure, cost-effective custom cloud application, our team has the expertise to guide you.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-8">
-            We’re the geeks who will make your data work for you, so you can
-            focus on your mission!
+            We're the technology experts who will make your platforms work for you, so you can focus on your growth!
           </p>
 
           {/* Button */}
-          <button className="inline-flex items-center bg-blue-900 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded-md shadow-md transition-all duration-300">
+          <a href="#who-we-helped" className="inline-flex items-center bg-blue-900 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded-md shadow-md transition-all duration-300">
             See Whom We’ve Helped
             <ArrowRight className="ml-2" size={20} />
-          </button>
+          </a>
         </div>
       </div>
     </section>

@@ -72,7 +72,7 @@ export default function WhoWeHelped() {
   };
 
   return (
-    <section className="py-16 border-y-4 border-teal-500 bg-white relative">
+    <section id="who-we-helped" className="py-16 border-y-4 border-teal-500 bg-white relative">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-center text-3xl md:text-4xl font-bold text-blue-900 mb-12">

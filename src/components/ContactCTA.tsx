@@ -18,7 +18,7 @@ const ContactCTA: React.FC = () => {
         {/* Button */}
         <div className="flex justify-center">
           <a
-            href="/contact"
+            href="#contact"
             className="inline-flex items-center gap-2 bg-blue-900 text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-blue-800 transition"
           >
             Let&apos;s Work Together

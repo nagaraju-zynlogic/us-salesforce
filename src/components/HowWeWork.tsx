@@ -22,10 +22,10 @@ export default function HowWeWork() {
             </p>
 
             {/* Button */}
-            <button className="mt-6 inline-flex items-center bg-[#89bfa3] hover:bg-[#7aad91] text-black font-semibold px-6 py-3 rounded-md shadow-md transition-all duration-300">
+            <a href="#contact" className="mt-6 inline-flex items-center bg-[#89bfa3] hover:bg-[#7aad91] text-black font-semibold px-6 py-3 rounded-md shadow-md transition-all duration-300">
               Let's Work Together
               <ArrowRight className="ml-2" size={20} />
-            </button>
+            </a>
           </div>
 
           {/* Right column */}

@@ -600,7 +600,7 @@ const statsData: CardData[] = [
     title: 'Expert Consulting Services',
     description:
       'Specializing in Salesforce, Azure CRM, Data Science, and AI solutions to drive your business success and growth. We also provide expert consulting services in Information Technologies, and have been working with nonprofits for over 30 years.',
-    imageUrl: 'https://cyntexa.com/wp-content/uploads/2024/09/unlock-potential-light-1.webp',
+    imageUrl: 'salesforce-offerings.png',
     className: 'md:row-span-2',
   },
   {

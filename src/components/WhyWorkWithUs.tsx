@@ -154,7 +154,7 @@ import "./WhyWorkWithUs.css";
 const WhyWorkWithUs = () => {
   return (
     <div className="container why-container">
-      <h2 className="swhy-ksolves-title">Why Work With Ksolves?</h2>
+      <h2 className="swhy-ksolves-title">Why Work With Us?</h2>
       
       <div className="row">
         {/* Left side */}

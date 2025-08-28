@@ -138,35 +138,35 @@ export default function Header({
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-2xl font-bold tracking-wide">
-              <span className="text-white">DATA</span>
-              <span className="text-green-300">GEEKS</span>
-              <span className="text-white">LAB</span>
+              <span className="text-white">CLOUDEATION</span>
+              
+              <span className="ml-2 text-green-300">TECHNOLOGIES</span>
             </span>
           </div>
 
           {/* Nav + Mobile Toggle */}
           <div className="flex items-center space-x-6">
             <nav className="hidden md:flex space-x-8 font-bold">
-              <a href="#home" className="text-blue-200">
+              <a href="#hero-section" className="text-blue-200">
                 HOME
               </a>
               <a
-                href="#howwework"
+                href="#services-section"
                 className="text-white hover:text-green-200 transition-colors"
               >
-                HOW WE WORK
+                SERVICES
               </a>
               <a
-                href="#whoweare"
+                href="#what-we-do-section"
                 className="text-white hover:text-green-200 transition-colors"
               >
-                WHO WE ARE
+                WHAT WE DO
               </a>
               <a
-                href="#whohelped"
+                href="#contact"
                 className="text-white hover:text-green-200 transition-colors"
               >
-                WHO WE’VE HELPED
+                CONTACT US
               </a>
             </nav>
 

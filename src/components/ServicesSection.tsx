@@ -102,13 +102,13 @@ interface Service {
 // Updated with image URLs and removed the static 'highlight' property
 const servicesData: Service[] = [
   {
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg',
+    imageUrl: 'Salesforce.com_logo.svg',
     title: 'Salesforce Services',
     description:
       'We deliver comprehensive Salesforce solutions to empower your business growth and enhance customer relations. Our experts will help you build a seamless customer experience and automate your sales process.',
   },
   {
-    imageUrl: 'https://latam.tivit.com/hs-fs/hubfs/Azure-1-e1486726339599.png?width=920&height=500&name=Azure-1-e1486726339599.png',
+    imageUrl: 'Azure.png',
     title: 'Azure CRM Solutions',
     description:
       'Leverage Microsoft Azure to build powerful, scalable CRM platforms tailored to your specific business needs. Our experienced team will help you migrate your CRM to the cloud and integrate it with other Microsoft products.',
@@ -130,7 +130,7 @@ const servicesData: Service[] = [
 // --- The Main Component ---
 export const ServicesSection = () => {
   return (
-    <section className="bg-slate-50/70 py-16 px-4 sm:px-6 lg:px-8">
+    <section id='services-section' className="bg-slate-50/70 py-16 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* Header Section */}
         <div className="text-center">

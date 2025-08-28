@@ -106,14 +106,14 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Data geeks lab has supported our nonprofit work for the past 3 years. TJ and her team are incredible thought partners and provide timely and effective support. I’ve had the pleasure of working with DGL recently, and we appreciate the high level of Salesforce technical expertise that they bring to the table.",
+      "Cloud eation Technologies has supported our nonprofit work for the past 3 years. Their team are incredible thought partners and provide timely and effective support. We’ve had the pleasure of working with Cloud eation Technologies recently, and we appreciate the high level of technical expertise that they bring to the table in Salesforce, Azure, custom cloud technologies and data science/AI.",
     name: "Rodrigo Sandoval",
     role: "Operations Director, Beneficial State Foundation",
     imageUrl: "https://randomuser.me/api/portraits/men/32.jpg" // Placeholder image
   },
   {
     quote:
-      "Working with DGL has been transformative. Their AI integration streamlined our processes and saved countless hours for our staff.",
+      "Working with Cloud eation Technologies has been transformative. Their AI integration streamlined our processes and saved countless hours for our staff.",
     name: "Sophia Martinez",
     role: "Director of Innovation, Global Nonprofit",
     imageUrl: "https://randomuser.me/api/portraits/women/44.jpg" // Placeholder image
