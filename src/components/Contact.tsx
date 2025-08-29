@@ -326,7 +326,7 @@ export default function Contact() {
             
             <div className="space-y-8">
               <ContactInfoItem icon={Phone} title="Call Us" content="+1 (972) 878-3496" />
-              <ContactInfoItem icon={Mail} title="Email Us" content="hello@intellisolutions.com" />
+              <ContactInfoItem icon={Mail} title="Email Us" content="Hr@cloudeation.net" />
               <ContactInfoItem 
                 icon={MapPin} 
                 title="Visit Us" 

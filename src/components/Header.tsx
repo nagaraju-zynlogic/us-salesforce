@@ -137,11 +137,7 @@ export default function Header({
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold tracking-wide">
-              <span className="text-white">CLOUDEATION</span>
-              
-              <span className="ml-2 text-green-300">TECHNOLOGIES</span>
-            </span>
+            <img className="h-12" src="/logo-1.png" alt="logo"/>
           </div>
 
           {/* Nav + Mobile Toggle */}
